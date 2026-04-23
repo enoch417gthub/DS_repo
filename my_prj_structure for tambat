@@ -2,39 +2,59 @@
 Folder PATH listing
 Volume serial number is B88F-806F
 C:.
+├───-p
+├───checkpoints
 ├───data
 │   ├───dataset-master
 │   │   └───dataset-master
 │   │       ├───.ipynb_checkpoints
 │   │       ├───Annotations
 │   │       └───JPEGImages
-│   └───dataset2-master
-│       └───dataset2-master
-│           └───images
-│               ├───TEST
-│               │   ├───EOSINOPHIL
-│               │   ├───LYMPHOCYTE
-│               │   ├───MONOCYTE
-│               │   └───NEUTROPHIL
-│               ├───TEST_SIMPLE
-│               │   ├───EOSINOPHIL
-│               │   ├───LYMPHOCYTE
-│               │   ├───MONOCYTE
-│               │   └───NEUTROPHIL
-│               └───TRAIN
-│                   ├───EOSINOPHIL
-│                   ├───LYMPHOCYTE
-│                   │   └───.ipynb_checkpoints
-│                   ├───MONOCYTE
-│                   └───NEUTROPHIL
-└───venv_bcc
-    ├───etc
-    │   └───jupyter
-    │       ├───jupyter_notebook_config.d
-    │       ├───jupyter_server_config.d
-    │       └───nbconfig
-    │           └───notebook.d
-    ├───Include
-    ├───Lib
-    │   └───site-packages
-    │       ├───absl
+│   ├───dataset2-master
+│   │   └───dataset2-master
+│   │       └───images
+│   │           ├───TEST
+│   │           │   ├───EOSINOPHIL
+│   │           │   ├───LYMPHOCYTE
+│   │           │   ├───MONOCYTE
+│   │           │   └───NEUTROPHIL
+│   │           ├───TEST_SIMPLE
+│   │           │   ├───EOSINOPHIL
+│   │           │   ├───LYMPHOCYTE
+│   │           │   ├───MONOCYTE
+│   │           │   └───NEUTROPHIL
+│   │           └───TRAIN
+│   │               ├───EOSINOPHIL
+│   │               ├───LYMPHOCYTE
+│   │               │   └───.ipynb_checkpoints
+│   │               ├───MONOCYTE
+│   │               └───NEUTROPHIL
+│   ├───test
+│   │   ├───eosinophil
+│   │   ├───lymphocyte
+│   │   ├───monocyte
+│   │   └───neutrophil
+│   ├───train
+│   │   ├───eosinophil
+│   │   ├───lymphocyte
+│   │   ├───monocyte
+│   │   └───neutrophil
+│   └───val
+│       ├───eosinophil
+│       ├───lymphocyte
+│       ├───monocyte
+│       └───neutrophil
+├───notebooks
+├───runs
+├───src
+│   └───__pycache__
+├───venv_bcc
+│   ├───etc
+│   │   └───jupyter
+│   │       ├───jupyter_notebook_config.d
+│   │       ├───jupyter_server_config.d
+│   │       └───nbconfig
+│   │           └───notebook.d
+│   ├───Include
+│   ├───Lib
+│   │   └───site-packages
